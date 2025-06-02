@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libertad en Debate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Libertad en Debate</div>
+            <div class="header-divider"></div>
+            <nav>
+                <ul>
+                    <li><a href="inicio.html" target="_blank">Inicio</a></li>
+                    <li><a href="articulos.html" target="_blank">Artículos</a></li>
+                    <li><a href="debates.html" target="_blank">Debates</a></li>
+                    <li><a href="recursos.html" target="_blank">Recursos</a></li>
+                    <li><a href="nosotros.html" target="_blank">Nosotros</a></li>
+                    <li><a href="contacto.html" target="_blank">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Nuevo espacio para banner publicitario -->
+    <div class="ad-banner-container">
+        <div class="container">
+            <div class="ad-banner" id="top-banner">
+                <p class="ad-label">Publicidad</p>
+                <!-- Aquí irá el código del anuncio -->
+            </div>
+        </div>
+    </div>
+
+    <section id="hero">
+        <div class="container">
+            <h1>La libertad se defiende con ideas, no con silencios.</h1>
+            <p>Un espacio para el diálogo abierto y el pensamiento crítico</p>
+            <a href="#articulos" class="btn">Explorar contenido</a>
+        </div>
+    </section>
+
+    <!-- Eliminamos el banner superior -->
+    <!-- <div class="ad-banner-container">...</div> -->
+    
+    <!-- Modificamos la estructura de contenido para incluir todos los anuncios en la barra lateral -->
+    <section id="articulos" class="section">
+        <div class="container">
+            <h2>Artículos destacados</h2>
+            <div class="content-with-sidebar">
+                <div class="main-content">
+                    <div class="grid">
+                        <article class="card"><!-- Artículo 1 --></article>
+                        <article class="card"><!-- Artículo 2 --></article>
+                        <article class="card"><!-- Artículo 3 --></article>
+                        <article class="card"><!-- Artículo 4 --></article>
+                    </div>
+                </div>
+                <aside class="sidebar">
+                    <!-- Banner publicitario (antes estaba arriba) -->
+                    <div class="sidebar-ad" id="top-banner">
+                        <p class="ad-label">Publicidad</p>
+                        <!-- Aquí irá el código del anuncio -->
+                    </div>
+                    <!-- Anuncios laterales existentes -->
+                    <div class="sidebar-ad" id="sidebar-ad-1">
+                        <p class="ad-label">Publicidad</p>
+                        <!-- Aquí irá el código del anuncio -->
+                    </div>
+                    <div class="sidebar-ad" id="sidebar-ad-2">
+                        <p class="ad-label">Publicidad</p>
+                        <!-- Aquí irá el código del anuncio -->
+                    </div>
+                    <!-- Contenido patrocinado (antes estaba entre los artículos) -->
+                    <div class="sidebar-ad sponsored-content">
+                        <div class="card-content">
+                            <span class="sponsored-label">Contenido patrocinado</span>
+                            <h3>Título del contenido patrocinado</h3>
+                            <p>Descripción del contenido patrocinado que mantiene el estilo editorial del sitio.</p>
+                            <a href="#" class="read-more">Saber más</a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <section id="debates" class="section alt">
+        <div class="container">
+            <h2>Debates recientes</h2>
+            <div class="debate-list">
+                <div class="debate-item">
+                    <div class="debate-meta">
+                        <span class="date">12 Mayo, 2023</span>
+                        <span class="category">Política</span>
+                    </div>
+                    <h3>Título del debate sobre libertad de expresión</h3>
+                    <p>Resumen del debate y los principales puntos discutidos por los participantes.</p>
+                    <a href="#" class="btn small">Ver debate completo</a>
+                </div>
+                <div class="debate-item">
+                    <div class="debate-meta">
+                        <span class="date">5 Mayo, 2023</span>
+                        <span class="category">Economía</span>
+                    </div>
+                    <h3>Título del debate sobre libertad económica</h3>
+                    <p>Resumen del debate y los principales puntos discutidos por los participantes.</p>
+                    <a href="#" class="btn small">Ver debate completo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recursos" class="section">
+        <div class="container">
+            <h2>Recursos</h2>
+            <div class="resources-grid">
+                <div class="resource-item">
+                    <div class="icon">📚</div>
+                    <h3>Biblioteca</h3>
+                    <p>Accede a nuestra colección de libros, artículos y ensayos sobre libertad y pensamiento crítico.</p>
+                    <a href="#" class="link">Explorar biblioteca</a>
+                </div>
+                <div class="resource-item">
+                    <div class="icon">🎓</div>
+                    <h3>Cursos</h3>
+                    <p>Formación en línea sobre filosofía política, economía y otros temas relacionados con la libertad.</p>
+                    <a href="#" class="link">Ver cursos disponibles</a>
+                </div>
+                <div class="resource-item">
+                    <div class="icon">🎙️</div>
+                    <h3>Podcast</h3>
+                    <p>Escucha nuestras conversaciones con expertos sobre temas de actualidad y libertad.</p>
+                    <a href="#" class="link">Escuchar episodios</a>
+                </div>
+                <div class="resource-item">
+                    <div class="icon">📊</div>
+                    <h3>Investigaciones</h3>
+                    <p>Estudios y análisis sobre libertad económica, política y social en diferentes contextos.</p>
+                    <a href="#" class="link">Ver investigaciones</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="section alt">
+        <div class="container">
+            <h2>Sobre nosotros</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Somos un grupo de pensadores, académicos y profesionales comprometidos con la promoción del diálogo abierto y el pensamiento crítico en torno a la libertad en todas sus dimensiones.</p>
+                    <p>Nuestra misión es crear un espacio donde las ideas puedan ser debatidas con rigor, respeto y apertura, contribuyendo así a una sociedad más libre y reflexiva.</p>
+                    <a href="#" class="btn">Conoce al equipo</a>
+                </div>
+                <div class="about-image placeholder"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Información de contacto</h3>
+                    <p><strong>Email:</strong> info@libertadendebate.org</p>
+                    <p><strong>Teléfono:</strong> +34 123 456 789</p>
+                    <p><strong>Dirección:</strong> Calle Ejemplo 123, Ciudad</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">YouTube</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Asunto</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Libertad en Debate</div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navegación</h4>
+                        <ul>
+                            <li><a href="#inicio">Inicio</a></li>
+                            <li><a href="#articulos">Artículos</a></li>
+                            <li><a href="#debates">Debates</a></li>
+                            <li><a href="#recursos">Recursos</a></li>
+                            <li><a href="#nosotros">Nosotros</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <div class="footer-column">
+                            <h4>Navegación</h4>
+                            <ul>
+                                <li><a href="inicio.html" target="_blank">Inicio</a></li>
+                                <li><a href="articulos.html" target="_blank">Artículos</a></li>
+                                <li><a href="debates.html" target="_blank">Debates</a></li>
+                                <li><a href="recursos.html" target="_blank">Recursos</a></li>
+                                <li><a href="nosotros.html" target="_blank">Nosotros</a></li>
+                                <li><a href="contacto.html" target="_blank">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Recursos</h4>
+                        <ul>
+                            <li><a href="#">Biblioteca</a></li>
+                            <li><a href="#">Cursos</a></li>
+                            <li><a href="#">Podcast</a></li>
+                            <li><a href="#">Investigaciones</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Términos y condiciones</a></li>
+                            <li><a href="#">Política de privacidad</a></li>
+                            <li><a href="#">Política de cookies</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Libertad en Debate. Todos los derechos reservados.</p>
+                <p class="slogan">La libertad se defiende con ideas, no con silencios.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
